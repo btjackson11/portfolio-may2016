@@ -1,0 +1,45 @@
+// PROJECTS STYLING
+#projects a.next {
+	position: absolute;
+	bottom: 0%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#projects .thumbnail{
+	height: 33.33vh;
+	@media #{$large-up}{
+		height: 45vh;
+	}
+	@media #{$xxlarge-up}{
+		height: 50vh;
+	}
+}
+#projects .thumbnail .thumbnail-hover{
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+	@media #{$large-up}{
+		opacity: 0;
+		background-color: rgba(0,0,0,0.9);
+		@include transition(.5s ease);
+	}
+}
+#projects .thumbnail:hover .thumbnail-hover{
+	@media #{$large-up}{
+		opacity: 1;
+	}
+}
+#projects .thumbnail .thumbnail-hover .thumbnail-type{
+	bottom: 2rem;
+	left: 2rem;
+	@media #{$large-up}{
+		opacity: 0;
+		@include transition(.5s ease);
+	}
+}
+#projects .thumbnail:hover .thumbnail-hover .thumbnail-type{
+	@media #{$large-up}{
+		opacity: 1;
+		bottom: 2rem;
+	}
+}

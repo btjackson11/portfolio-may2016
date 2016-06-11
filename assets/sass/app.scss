@@ -1,0 +1,60 @@
+//NORMALIZE
+@import "normalize";
+
+//SETTINGS
+@import "settings";
+
+//GLOBAL
+@import "app/functions";
+@import "app/mixins";
+@import "app/mediaqueries";
+@import "app/grid";
+@import "app/helpers";
+
+//BLOCKS
+@import "sections/header";
+@import "sections/home";
+@import "sections/projects";
+@import "sections/single-project";
+@import "sections/profile";
+/*
+@import "sections/about";
+@import "sections/blog";
+*/
+@import "sections/footer";
+@import "sections/resume";
+/*
+@import "sections/colophon";
+*/
+
+//ELEMENTS
+@import "elements/valign";
+@import "elements/img";
+@import "elements/btn";
+@import "elements/typography";
+@import "elements/color"; 
+
+//MODIFIERS
+@import "modifiers/position";
+@import "modifiers/display";
+@import "modifiers/padding";
+
+//MIXINS
+@import "mixins"; 
+
+
+ul {
+	margin-left: 0;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}

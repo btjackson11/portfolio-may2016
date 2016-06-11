@@ -1,0 +1,28 @@
+#blog {
+	height: auto;
+	width: 100vw;
+	background-color: brown;
+	position: relative;
+}
+#blog .row article {
+// 	height: 100vh;
+	position: relative;
+	padding: 3rem 0;
+}
+#blog .row .col .centered {
+/*
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 62.5rem;
+*/
+}
+#blog a.next {
+/*
+	position: absolute;
+	bottom: 0%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+*/
+}

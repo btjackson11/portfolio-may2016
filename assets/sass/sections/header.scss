@@ -1,0 +1,41 @@
+// HEADER STYLING
+header {
+	left: 50%;
+	top: 3rem;
+	max-width: 50px;
+	width: 50px;
+	@include transform(translate(-50%, -50%));
+}
+header .logo{
+	@include transition(.15s ease-in-out);
+}
+.sub-nav{
+	position: fixed;
+	top: 5rem;
+	left: 50%;
+	z-index: 99;
+	width: 700px;
+	margin-left: -350px;
+	@media #{$large-up}{
+		top: 2rem;
+	}
+}
+.sub-nav .left{
+	display: none;
+	@media #{$large-up}{
+		display: block;
+		float: left !important;
+		text-align: left;
+	}
+}
+.sub-nav .right{
+	display: none;
+	@media #{$large-up}{
+		display: block;
+		float: right !important;
+		text-align: right;
+	}
+}
+.sub-nav a{
+	color: $white;
+}

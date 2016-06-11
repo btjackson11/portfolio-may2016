@@ -1,0 +1,29 @@
+// RESUME STYLING
+body.page-template-template-resume{
+	background-color: #F2F0EC;
+}
+#resume{
+	max-width: 80rem;
+	padding: 3rem;
+	margin: 0 auto;
+}
+#resume .top.row{
+	padding: 2rem;
+}
+#resume .top.row .row{
+	padding-bottom: 2rem;
+}
+#resume .top.row .row .col{
+	padding-right: 1rem;
+}
+#resume h2{
+	margin-bottom: .5rem;
+	color: #0c314c;
+}
+#resume h3{
+	color: #0c314c;
+}
+#resume p{
+	line-height: 125%;
+	color: #494949;
+}

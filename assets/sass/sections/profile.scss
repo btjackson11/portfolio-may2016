@@ -1,0 +1,17 @@
+// PROFILE STYLING
+#profile {
+	@media #{$medium-up}{
+		width: 100vw;
+	}
+}
+#profile .row .right.col {
+	height: 75vh;
+	position: relative;
+	background-image: url('/portfolio/may2016//wp-content/themes/newportfolio/assets/img/profile-bw2.jpg');
+	@media #{$medium-up}{
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 100%;
+	}
+}
